@@ -1,34 +1,82 @@
-name: Automated Versioning
+name: Generate PDF, TeX, and HTML
 
 on:
   push:
-    branches:
-      - main
+    paths:
+      - 'main.tex'
 
 jobs:
-  versioning:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: macos-latest
+
+    permissions:
+      contents: write
 
     steps:
+      # Checkout the repository
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+      # Cache MacTeX installation to speed up future runs
+      - name: Cache MacTeX
+        uses: actions/cache@v3
+        with:
+          path: /Library/TeX
+          key: macos-mactex-${{ runner.os }}-${{ hashFiles('main.tex') }}
+          restore-keys: |
+            macos-mactex-${{ runner.os }}-
 
-      - name: Determine new version
-        id: new_version
+      # Install MacTeX if not cached
+      - name: Install MacTeX
         run: |
-          latest_tag=$(git describe --tags --abbrev=0 || echo "v0.0.0")
-          IFS='.' read -r major minor patch <<< "${latest_tag#v}"
-          patch=$((patch + 1))
-          echo "v$major.$minor.$patch" > new_version.txt
-          echo "::set-output name=version::v$major.$minor.$patch"
+          if [ ! -d "/Library/TeX/texbin" ]; then
+            brew install --cask mactex
+          fi
 
-      - name: Create and push new tag
+      # Add MacTeX to PATH
+      - name: Add MacTeX to PATH
+        run: echo "/Library/TeX/texbin" >> $GITHUB_PATH
+
+      # Calculate version number based on changes
+      - name: Calculate version number
+        id: version
         run: |
-          new_version=$(cat new_version.txt)
-          git tag -a "$new_version" -m "Automated version bump"
-          git push origin "$new_version"
+          if [ ! -f .version ]; then 
+            echo "1.1" > .version
+          fi
+          VERSION=$(cat .version)
+          CHANGES=$(git diff HEAD~1 --numstat main.tex | awk '{print $1 + $2}')
+          if [ "$CHANGES" -gt 0 ]; then
+            VERSION_MAJOR=$(echo $VERSION | cut -d'.' -f1)
+            VERSION_MINOR=$(echo $VERSION | cut -d'.' -f2)
+            VERSION_MINOR=$((VERSION_MINOR + 1))
+            VERSION="${VERSION_MAJOR}.${VERSION_MINOR}"
+          fi
+          echo $VERSION > .version
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          echo "version=$VERSION" # Output version for debugging
+
+      # Generate PDF
+      - name: Generate PDF
+        run: pdflatex -interaction=nonstopmode main.tex
+
+      # Generate HTML
+      - name: Generate HTML
+        run: htlatex main.tex
+
+      # Rename files with version number
+      - name: Rename files
+        run: |
+          VERSION=$(cat .version)
+          mv main.pdf "output-${VERSION}.pdf"
+          mv main.tex "output-${VERSION}.tex"
+          mv main.html "output-${VERSION}.html"
+
+      # Commit and push generated files
+      - name: Commit and push generated files
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add .
+          git commit -m "Add generated files for version $VERSION"
+          git push origin main
