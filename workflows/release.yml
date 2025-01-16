@@ -1,0 +1,34 @@
+name: Automated Versioning
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  versioning:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Determine new version
+        id: new_version
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0 || echo "v0.0.0")
+          IFS='.' read -r major minor patch <<< "${latest_tag#v}"
+          patch=$((patch + 1))
+          echo "v$major.$minor.$patch" > new_version.txt
+          echo "::set-output name=version::v$major.$minor.$patch"
+
+      - name: Create and push new tag
+        run: |
+          new_version=$(cat new_version.txt)
+          git tag -a "$new_version" -m "Automated version bump"
+          git push origin "$new_version"
