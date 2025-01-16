@@ -1,0 +1,863 @@
+<!DOCTYPE html> 
+<html lang='en-US' xml:lang='en-US'> 
+<head><title></title> 
+<meta charset='utf-8' /> 
+<meta content='TeX4ht (https://tug.org/tex4ht/)' name='generator' /> 
+<meta content='width=device-width,initial-scale=1' name='viewport' /> 
+<link href='main.css' rel='stylesheet' type='text/css' /> 
+<meta content='main.tex' name='src' /> 
+</head><body>
+<div class='center'>
+<!-- l. 54 --><p class='noindent'>
+</p><!-- l. 55 --><p class='noindent'><span class='ecbx-2488'>ELP305 P1 Report</span>
+</p><!-- l. 57 --><p class='noindent'><span class='ecrm-1728'>Function Generator — Requirements</span>
+</p><!-- l. 59 --><p class='noindent'><span id='textcolor1'><span class='ecrm-1440'>Thursday Tribe</span></span></p></div>
+<!-- l. 62 --><p class='noindent'>_________________________________________________________________________________________
+</p>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 68 --><p class='noindent'> </p><div class='minipage'><img alt='RNNeSNqp××ue×icCriMlMefiDaoimcejsneasouontirrrtigReRsoneen-lls
+    Cycles
+' src='main0x.svg' />
+<a id='x1-1doc'></a>                                                            </div>
+                                                                                      
+                                                                                      
+   </figure>
+   <h3 class='likesectionHead' id='contents'><a id='x1-1000'></a>Contents</h3>
+   <div class='tableofcontents'>
+   <span class='sectionToc'>1 <a href='#list-of-tables' id='QQ2-1-2'>List of Tables</a></span>
+<br />   <span class='sectionToc'>2 <a href='#list-of-figures' id='QQ2-1-4'>List of Figures</a></span>
+<br />   <span class='sectionToc'>3 <a href='#abbreviations' id='QQ2-1-6'>Abbreviations</a></span>
+<br />   <span class='sectionToc'>4 <a href='#glossary' id='QQ2-1-7'>Glossary</a></span>
+<br />   <span class='sectionToc'>5 <a href='#team-members' id='QQ2-1-8'>Team Members</a></span>
+<br />   <span class='subsectionToc'>5.1 <a href='#spoc' id='QQ2-1-9'>SPOC</a></span>
+<br />   <span class='subsectionToc'>5.2 <a href='#software' id='QQ2-1-11'>Software</a></span>
+<br />   <span class='subsectionToc'>5.3 <a href='#documentation' id='QQ2-1-13'>Documentation</a></span>
+<br />   <span class='subsectionToc'>5.4 <a href='#electronics' id='QQ2-1-15'>Electronics</a></span>
+<br />   <span class='subsectionToc'>5.5 <a href='#mechanical' id='QQ2-1-17'>Mechanical</a></span>
+<br />   <span class='sectionToc'>6 <a href='#mind-maps' id='QQ2-1-19'>Mind Maps</a></span>
+<br />   <span class='sectionToc'>7 <a href='#project-management-details' id='QQ2-1-21'>Project Management Details</a></span>
+<br />   <span class='subsectionToc'>7.1 <a href='#network-chart' id='QQ2-1-22'>Network Chart</a></span>
+<br />   <span class='subsectionToc'>7.2 <a href='#wbs-chart' id='QQ2-1-24'>WBS Chart</a></span>
+<br />   <span class='subsectionToc'>7.3 <a href='#gantt-chart' id='QQ2-1-26'>Gantt Chart</a></span>
+<br />   <span class='subsectionToc'>7.4 <a href='#task-usage-chart' id='QQ2-1-28'>Task Usage Chart</a></span>
+<br />   <span class='sectionToc'>8 <a href='#abstract' id='QQ2-1-30'>Abstract</a></span>
+<br />   <span class='sectionToc'>9 <a href='#motivation' id='QQ2-1-31'>Motivation</a></span>
+<br />   <span class='sectionToc'>10 <a href='#requirements' id='QQ2-1-33'>Requirements</a></span>
+<br />   <span class='subsectionToc'>10.1 <a href='#input-requirements' id='QQ2-1-34'>Input Requirements</a></span>
+<br />   <span class='subsectionToc'>10.2 <a href='#output-requirements' id='QQ2-1-35'>Output Requirements</a></span>
+<br />   <span class='subsectionToc'>10.3 <a href='#power-requirements' id='QQ2-1-36'>Power Requirements</a></span>
+<br />   <span class='subsectionToc'>10.4 <a href='#environmental-requirements' id='QQ2-1-37'>Environmental Requirements</a></span>
+<br />   <span class='subsectionToc'>10.5 <a href='#site-usage-site-requirements' id='QQ2-1-38'>Site (Usage Site) Requirements</a></span>
+<br />   <span class='subsectionToc'>10.6 <a href='#structural-requirements' id='QQ2-1-39'>Structural Requirements</a></span>
+<br />   <span class='subsectionToc'>10.7 <a href='#time-requirements' id='QQ2-1-40'>Time Requirements</a></span>
+<br />   <span class='sectionToc'>11 <a href='#references' id='QQ2-1-41'>References</a></span>
+<br />   <span class='sectionToc'>A <a href='#appendices' id='QQ2-1-43'>Appendices</a></span>
+<br />   <span class='subsectionToc'>A.1 <a href='#appendix-a-circuit-diagrams' id='QQ2-1-44'>Appendix A: Circuit Diagrams</a></span>
+<br />   <span class='subsectionToc'>A.2 <a href='#appendix-b-code' id='QQ2-1-45'>Appendix B: Code</a></span>
+   </div>
+<!-- l. 85 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='list-of-tables'><span class='titlemark'>1   </span> <a id='x1-20001'></a>List of Tables</h3>
+<!-- l. 87 --><p class='noindent'>
+</p>
+   <h3 class='likesectionHead' id='list-of-tables1'><a id='x1-3000'></a>List of Tables</h3>
+   <div class='tableofcontents'><span class='lotToc'>1 <a href='#single-point-of-contact'>Single Point of Contact</a></span><br /><span class='lotToc'>2 <a href='#software-team'>Software Team</a></span><br /><span class='lotToc'>3 <a href='#documentation-team'>Documentation
+Team</a></span><br /><span class='lotToc'>4 <a href='#electronics-team'>Electronics Team</a></span><br /><span class='lotToc'>5 <a href='#mechanical-team'>Mechanical Team</a></span><br />
+   </div>
+<!-- l. 89 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='list-of-figures'><span class='titlemark'>2   </span> <a id='x1-40002'></a>List of Figures</h3>
+<!-- l. 91 --><p class='noindent'>
+</p>
+   <h3 class='likesectionHead' id='list-of-figures1'><a id='x1-5000'></a>List of Figures</h3>
+   <div class='tableofcontents'><span class='lofToc'>1 <a href='#mind-map-for-function-generator-requirements'>Mind Map for Function Generator Requirements</a></span><br /><span class='lofToc'>2 <a href='#network-chart-for-project-timeline'>Network Chart
+for Project Timeline</a></span><br /><span class='lofToc'>3 <a href='#work-breakdown-structure-wbs-chart-for-project-costs'>Work Breakdown Structure (WBS) Chart for
+Project Costs</a></span><br /><span class='lofToc'>4 <a href='#gantt-chart-for-project-timeline'>Gantt Chart for Project Timeline</a></span><br /><span class='lofToc'>5 <a href='#task-usage-chart-for-resource-allocation'>Task Usage Chart for
+Resource Allocation</a></span><br /><span class='lofToc'>6 <a href='#factors-driving-the-function-generator-development'>Factors Driving the Function Generator Development</a></span><br />
+   </div>
+<!-- l. 116 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='abbreviations'><span class='titlemark'>3   </span> <a id='x1-60003'></a>Abbreviations</h3>
+      <ul class='itemize1'>
+      <li class='itemize'><span class='ecbx-1200'>AD9833: </span>Programmable Waveform Generator
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>BNC: </span>Bayonet Neill-Concelman
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>ESP32: </span>Espressif Systems Microcontroller
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>LCD: </span>Liquid Crystal Display
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>OLED: </span>Organic Light-Emitting Diode
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>PCB: </span>Printed Circuit Board
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>RF: </span>Radio Frequency
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>SNR: </span>Signal-to-Noise Ratio
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>SPI: </span>Serial Peripheral Interface
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>THD: </span>Total Harmonic Distortion
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>USB: </span>Universal Serial Bus
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>SPOC: </span>Single Point of Contact
+                                                                                      
+                                                                                      
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>IF: </span>Involvement Factor
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>TC: </span>Tribe Coordinator
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>DTC: </span>Deputy Tribe Coordinator
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>Hz: </span>Hertz
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>MHz: </span>Megahertz
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>V: </span>Volt
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>mV: </span>Millivolt
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>W: </span>Watt
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>A: </span>Ampere
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>mA: </span>Milliampere
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>dB: </span>Decibel
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>RH: </span>Relative Humidity
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>TEMP: </span>Temperature
+                                                                                      
+                                                                                      
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>Type-C: </span>Universal Serial Bus Type-C
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>I</span><span class='tcbx-1200'>²</span><span class='ecbx-1200'>C: </span>Inter-Integrated Circuit
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>UART: </span>Universal Asynchronous Receiver-Transmitter
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>AC: </span>Alternating Current
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>DC: </span>Direct Current
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>p-p: </span>Peak-to-Peak
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>RMS: </span>Root Mean Square
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>QC: </span>Quality Control
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>QA: </span>Quality Assurance
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>EOL: </span>End of Life
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>MTBF: </span>Mean Time Between Failures
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>ESD: </span>Electrostatic Discharge
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>EMI: </span>Electromagnetic Interference
+                                                                                      
+                                                                                      
+      </li>
+      <li class='itemize'><span class='ecbx-1200'>EMC: </span>Electromagnetic Compatibility
+</li></ul>
+<!-- l. 177 --><p class='noindent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='glossary'><span class='titlemark'>4   </span> <a id='x1-70004'></a>Glossary</h3>
+<!-- l. 180 --><p class='noindent'>
+      </p><dl class='description'><dt class='description'>
+<span class='ecbx-1200'>AD9833</span> </dt><dd class='description'>
+      <!-- l. 181 --><p class='noindent'>A programmable waveform generator integrated circuit capable of producing sine,
+      triangular, and square waves
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>BNC Connector</span> </dt><dd class='description'>
+      <!-- l. 183 --><p class='noindent'>Bayonet Neill-Concelman connector; a type of RF connector commonly used for
+      signal output in test equipment
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>ESP32</span> </dt><dd class='description'>
+      <!-- l. 186 --><p class='noindent'>A series of low-cost, low-power microcontroller with integrated Wi-Fi and Bluetooth
+      capabilities
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>LCD</span> </dt><dd class='description'>
+      <!-- l. 189 --><p class='noindent'>Liquid Crystal Display; a flat-panel display technology
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>OLED</span> </dt><dd class='description'>
+      <!-- l. 192 --><p class='noindent'>Organic Light-Emitting Diode; a display technology offering high contrast and low
+      power consumption
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>PCB</span> </dt><dd class='description'>
+      <!-- l. 194 --><p class='noindent'>Printed Circuit Board; a board that mechanically supports and electrically connects
+      electronic components
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>RF</span> </dt><dd class='description'>
+      <!-- l. 196 --><p class='noindent'>Radio Frequency; refers to oscillating electromagnetic waves
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>SNR</span> </dt><dd class='description'>
+      <!-- l. 198 --><p class='noindent'>Signal-to-Noise Ratio; measure of signal strength relative to background noise
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>SPI</span> </dt><dd class='description'>
+      <!-- l. 200 --><p class='noindent'>Serial Peripheral Interface; a synchronous serial communication protocol
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>THD</span> </dt><dd class='description'>
+      <!-- l. 203 --><p class='noindent'>Total Harmonic Distortion; measurement of waveform distortion, expressed as a
+      percentage
+                                                                                      
+                                                                                      
+      </p></dd><dt class='description'>
+<span class='ecbx-1200'>USB Type-C</span> </dt><dd class='description'>
+      <!-- l. 205 --><p class='noindent'>Universal Serial Bus Type-C; a standard connector for power delivery and data
+      transfer
+</p>
+      </dd></dl>
+<!-- l. 209 --><p class='noindent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='team-members'><span class='titlemark'>5   </span> <a id='x1-80005'></a>Team Members</h3>
+<!-- l. 211 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='spoc'><span class='titlemark'>5.1   </span> <a id='x1-90005.1'></a>SPOC</h4>
+   <div class='table'>
+                                                                                      
+                                                                                      
+<!-- l. 212 --><p class='indent'>   </p><figure class='float' id='x1-9001r1'><span id='single-point-of-contact'></span>
+                                                                                      
+                                                                                      
+
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Table 1: </span></span><span class='content'><span class='ecrm-1095'>Single Point of Contact</span>                                                       </span></figcaption><!-- tex4ht:label?: x1-9001r1  -->
+
+ <table class='tabular' id='TBL-3'><colgroup id='TBL-3-1g'><col id='TBL-3-1' /></colgroup><colgroup id='TBL-3-2g'><col id='TBL-3-2' /></colgroup><colgroup id='TBL-3-3g'><col id='TBL-3-3' /></colgroup><colgroup id='TBL-3-4g'><col id='TBL-3-4' /></colgroup><colgroup id='TBL-3-5g'><col id='TBL-3-5' /></colgroup><colgroup id='TBL-3-6g'><col id='TBL-3-6' /></colgroup><tr id='TBL-3-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-1-1' style='white-space:nowrap; text-align:center;'>   <span class='ecbx-1200'>Designation    </span></td><td class='td11' id='TBL-3-1-2' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>Name </span></td><td class='td11' id='TBL-3-1-3' style='white-space:nowrap; text-align:center;'>  <span class='ecbx-1200'>Entry No   </span></td><td class='td11' id='TBL-3-1-4' style='white-space:nowrap; text-align:center;'>       <span class='ecbx-1200'>Email          </span></td><td class='td11' id='TBL-3-1-5' style='white-space:nowrap; text-align:center;'>   <span class='ecbx-1200'>Phone    </span></td><td class='td11' id='TBL-3-1-6' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>IF </span></td>
+</tr><tr id='TBL-3-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-3-2-1' style='white-space:nowrap; text-align:center;'> Tribe Coordinator  </td><td class='td11' id='TBL-3-2-2' style='white-space:nowrap; text-align:center;'> Shahid  </td><td class='td11' id='TBL-3-2-3' style='white-space:nowrap; text-align:center;'> 2022EE11163  </td><td class='td11' id='TBL-3-2-4' style='white-space:nowrap; text-align:center;'> ee122163- @iitd.ac.in  </td><td class='td11' id='TBL-3-2-5' style='white-space:nowrap; text-align:center;'> 7737042800  </td><td class='td11' id='TBL-3-2-6' style='white-space:nowrap; text-align:center;'>    </td>
+</tr></table>
+                                                                                      
+                                                                                      
+   </figure>
+   </div>
+   <h4 class='subsectionHead' id='software'><span class='titlemark'>5.2   </span> <a id='x1-100005.2'></a>Software</h4>
+   <div class='table'>
+                                                                                      
+                                                                                      
+<!-- l. 228 --><p class='indent'>   </p><figure class='float' id='x1-10001r2'><span id='software-team'></span>
+                                                                                      
+                                                                                      
+
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Table 2: </span></span><span class='content'><span class='ecrm-1095'>Software Team</span>                                                               </span></figcaption><!-- tex4ht:label?: x1-10001r2  -->
+
+ <table class='tabular' id='TBL-6'><colgroup id='TBL-6-1g'><col id='TBL-6-1' /></colgroup><colgroup id='TBL-6-2g'><col id='TBL-6-2' /></colgroup><colgroup id='TBL-6-3g'><col id='TBL-6-3' /></colgroup><colgroup id='TBL-6-4g'><col id='TBL-6-4' /></colgroup><colgroup id='TBL-6-5g'><col id='TBL-6-5' /></colgroup><colgroup id='TBL-6-6g'><col id='TBL-6-6' /></colgroup><colgroup id='TBL-6-7g'><col id='TBL-6-7' /></colgroup><tr id='TBL-6-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-1-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'><span class='ecbx-1200'>Desig-nation</span> </p></td><td class='td11' id='TBL-6-1-2' style='white-space:nowrap; text-align:center;'>    <span class='ecbx-1200'>Name         </span></td><td class='td11' id='TBL-6-1-3' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>Entry No  </span></td><td class='td11' id='TBL-6-1-4' style='white-space:nowrap; text-align:center;'>       <span class='ecbx-1200'>Email         </span></td><td class='td11' id='TBL-6-1-5' style='white-space:nowrap; text-align:center;'>  <span class='ecbx-1200'>Phone   </span></td><td class='td11' id='TBL-6-1-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'><span class='ecbx-1200'>IF</span>    </p></td><td class='td11' id='TBL-6-1-7' style='white-space:nowrap; text-align:center;'><span class='ecbx-1200'>Justification for Low IF</span></td>
+</tr><tr id='TBL-6-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-2-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Coordi-nator </p></td><td class='td11' id='TBL-6-2-2' style='white-space:nowrap; text-align:center;'> Kabir Eshu Nagpal   </td><td class='td11' id='TBL-6-2-3' style='white-space:nowrap; text-align:center;'> 2022EE31743 </td><td class='td11' id='TBL-6-2-4' style='white-space:nowrap; text-align:center;'> ee3221-743@iitd.ac.in </td><td class='td11' id='TBL-6-2-5' style='white-space:nowrap; text-align:center;'>9877812615</td><td class='td11' id='TBL-6-2-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-2-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-3-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-3-2' style='white-space:nowrap; text-align:center;'>  Ankit Choudhary    </td><td class='td11' id='TBL-6-3-3' style='white-space:nowrap; text-align:center;'> 2022EE11707 </td><td class='td11' id='TBL-6-3-4' style='white-space:nowrap; text-align:center;'> ee1221-707@iitd.ac.in </td><td class='td11' id='TBL-6-3-5' style='white-space:nowrap; text-align:center;'>8890755571</td><td class='td11' id='TBL-6-3-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-3-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-4-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-4-2' style='white-space:nowrap; text-align:center;'>   Dhruv Malhotra    </td><td class='td11' id='TBL-6-4-3' style='white-space:nowrap; text-align:center;'> 2022EE11670 </td><td class='td11' id='TBL-6-4-4' style='white-space:nowrap; text-align:center;'> ee1221-670@iitd.ac.in </td><td class='td11' id='TBL-6-4-5' style='white-space:nowrap; text-align:center;'>9319225749</td><td class='td11' id='TBL-6-4-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-4-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-5-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-5-2' style='white-space:nowrap; text-align:center;'>    Rohit Rajput      </td><td class='td11' id='TBL-6-5-3' style='white-space:nowrap; text-align:center;'> 2022EE11699 </td><td class='td11' id='TBL-6-5-4' style='white-space:nowrap; text-align:center;'> ee1221-699@iitd.ac.in </td><td class='td11' id='TBL-6-5-5' style='white-space:nowrap; text-align:center;'>7067919517</td><td class='td11' id='TBL-6-5-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-5-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-6-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-6-2' style='white-space:nowrap; text-align:center;'>    Simran Meena      </td><td class='td11' id='TBL-6-6-3' style='white-space:nowrap; text-align:center;'> 2022EE11188 </td><td class='td11' id='TBL-6-6-4' style='white-space:nowrap; text-align:center;'> ee1221-188@iitd.ac.in </td><td class='td11' id='TBL-6-6-5' style='white-space:nowrap; text-align:center;'>7982559613</td><td class='td11' id='TBL-6-6-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-6-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-7-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-7-2' style='white-space:nowrap; text-align:center;'>  Pratham Malhotra   </td><td class='td11' id='TBL-6-7-3' style='white-space:nowrap; text-align:center;'> 2022EE11152 </td><td class='td11' id='TBL-6-7-4' style='white-space:nowrap; text-align:center;'> ee1221-152@iitd.ac.in </td><td class='td11' id='TBL-6-7-5' style='white-space:nowrap; text-align:center;'>9310743395</td><td class='td11' id='TBL-6-7-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-7-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-6-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-8-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-8-2' style='white-space:nowrap; text-align:center;'>   Shikhar Gupta     </td><td class='td11' id='TBL-6-8-3' style='white-space:nowrap; text-align:center;'>2022MT11925</td><td class='td11' id='TBL-6-8-4' style='white-space:nowrap; text-align:center;'>mt1221-925@iitd.ac.in</td><td class='td11' id='TBL-6-8-5' style='white-space:nowrap; text-align:center;'>8602553238</td><td class='td11' id='TBL-6-8-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-8-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-6-9-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-9-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-9-2' style='white-space:nowrap; text-align:center;'>Rohit Yuvaraj Jadekar</td><td class='td11' id='TBL-6-9-3' style='white-space:nowrap; text-align:center;'>2022MT61984</td><td class='td11' id='TBL-6-9-4' style='white-space:nowrap; text-align:center;'>mt6221-984@iitd.ac.in</td><td class='td11' id='TBL-6-9-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-6-9-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-9-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-6-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-6-10-1' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-6-10-2' style='white-space:nowrap; text-align:center;'>   Akshat Bhasin      </td><td class='td11' id='TBL-6-10-3' style='white-space:nowrap; text-align:center;'> 2022EE31996 </td><td class='td11' id='TBL-6-10-4' style='white-space:nowrap; text-align:center;'> ee3221-996@iitd.ac.in </td><td class='td11' id='TBL-6-10-5' style='white-space:nowrap; text-align:center;'>8810302411</td><td class='td11' id='TBL-6-10-6' style='white-space:normal; text-align:left;'><!-- l. 248 --><p class='noindent'>     </p></td><td class='td11' id='TBL-6-10-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr></table>
+                                                                                      
+                                                                                      
+   </figure>
+   </div>
+   <h4 class='subsectionHead' id='documentation'><span class='titlemark'>5.3   </span> <a id='x1-110005.3'></a>Documentation</h4>
+   <div class='table'>
+                                                                                      
+                                                                                      
+<!-- l. 254 --><p class='indent'>   </p><figure class='float' id='x1-11001r3'><span id='documentation-team'></span>
+                                                                                      
+                                                                                      
+
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Table 3: </span></span><span class='content'><span class='ecrm-1095'>Documentation Team</span>                                                         </span></figcaption><!-- tex4ht:label?: x1-11001r3  -->
+
+ <table class='tabular' id='TBL-9'><colgroup id='TBL-9-1g'><col id='TBL-9-1' /></colgroup><colgroup id='TBL-9-2g'><col id='TBL-9-2' /></colgroup><colgroup id='TBL-9-3g'><col id='TBL-9-3' /></colgroup><colgroup id='TBL-9-4g'><col id='TBL-9-4' /></colgroup><colgroup id='TBL-9-5g'><col id='TBL-9-5' /></colgroup><colgroup id='TBL-9-6g'><col id='TBL-9-6' /></colgroup><colgroup id='TBL-9-7g'><col id='TBL-9-7' /></colgroup><tr id='TBL-9-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-1-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'><span class='ecbx-1200'>Desig-nation</span> </p></td><td class='td11' id='TBL-9-1-2' style='white-space:nowrap; text-align:center;'>      <span class='ecbx-1200'>Name            </span></td><td class='td11' id='TBL-9-1-3' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>Entry No  </span></td><td class='td11' id='TBL-9-1-4' style='white-space:nowrap; text-align:center;'>       <span class='ecbx-1200'>Email         </span></td><td class='td11' id='TBL-9-1-5' style='white-space:nowrap; text-align:center;'>  <span class='ecbx-1200'>Phone   </span></td><td class='td11' id='TBL-9-1-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'><span class='ecbx-1200'>IF</span>    </p></td><td class='td11' id='TBL-9-1-7' style='white-space:nowrap; text-align:center;'><span class='ecbx-1200'>Justification for Low IF</span></td>
+</tr><tr id='TBL-9-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-2-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Coordi-nator </p></td><td class='td11' id='TBL-9-2-2' style='white-space:nowrap; text-align:center;'>Vaishnavi Nandkishor Bisen</td><td class='td11' id='TBL-9-2-3' style='white-space:nowrap; text-align:center;'> 2022EE11719 </td><td class='td11' id='TBL-9-2-4' style='white-space:nowrap; text-align:center;'> ee1221-719@iitd.ac.in </td><td class='td11' id='TBL-9-2-5' style='white-space:nowrap; text-align:center;'>9325856903</td><td class='td11' id='TBL-9-2-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-2-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-3-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-3-2' style='white-space:nowrap; text-align:center;'>     Prateek Mourya        </td><td class='td11' id='TBL-9-3-3' style='white-space:nowrap; text-align:center;'>2022MT11937</td><td class='td11' id='TBL-9-3-4' style='white-space:nowrap; text-align:center;'>mt1221-937@iitd.ac.in</td><td class='td11' id='TBL-9-3-5' style='white-space:nowrap; text-align:center;'>7828387294</td><td class='td11' id='TBL-9-3-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-3-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-4-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-4-2' style='white-space:nowrap; text-align:center;'>      P Siddhartha          </td><td class='td11' id='TBL-9-4-3' style='white-space:nowrap; text-align:center;'> 2021EE10135 </td><td class='td11' id='TBL-9-4-4' style='white-space:nowrap; text-align:center;'> ee1210-135@iitd.ac.in </td><td class='td11' id='TBL-9-4-5' style='white-space:nowrap; text-align:center;'>9063000515</td><td class='td11' id='TBL-9-4-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-4-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-5-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-5-2' style='white-space:nowrap; text-align:center;'>      Srishti Nagpal         </td><td class='td11' id='TBL-9-5-3' style='white-space:nowrap; text-align:center;'> 2022EE11165 </td><td class='td11' id='TBL-9-5-4' style='white-space:nowrap; text-align:center;'> ee1221-165@iitd.ac.in </td><td class='td11' id='TBL-9-5-5' style='white-space:nowrap; text-align:center;'>8595722241</td><td class='td11' id='TBL-9-5-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-5-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-6-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-6-2' style='white-space:nowrap; text-align:center;'>     Ankita Malviya        </td><td class='td11' id='TBL-9-6-3' style='white-space:nowrap; text-align:center;'> 2022EE11183 </td><td class='td11' id='TBL-9-6-4' style='white-space:nowrap; text-align:center;'> ee1221-183@iitd.ac.in </td><td class='td11' id='TBL-9-6-5' style='white-space:nowrap; text-align:center;'>8305524415</td><td class='td11' id='TBL-9-6-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-6-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-7-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-7-2' style='white-space:nowrap; text-align:center;'>     Kaustubh Vatsa        </td><td class='td11' id='TBL-9-7-3' style='white-space:nowrap; text-align:center;'> 2022EE11151 </td><td class='td11' id='TBL-9-7-4' style='white-space:nowrap; text-align:center;'> ee1221-151@iitd.ac.in </td><td class='td11' id='TBL-9-7-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-9-7-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-7-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-8-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-8-2' style='white-space:nowrap; text-align:center;'>      Gaurav Gupta         </td><td class='td11' id='TBL-9-8-3' style='white-space:nowrap; text-align:center;'> 2022EE11691 </td><td class='td11' id='TBL-9-8-4' style='white-space:nowrap; text-align:center;'> ee1221-691@iitd.ac.in </td><td class='td11' id='TBL-9-8-5' style='white-space:nowrap; text-align:center;'>8949476332</td><td class='td11' id='TBL-9-8-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-8-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-9-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-9-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-9-2' style='white-space:nowrap; text-align:center;'>     Mayank Kumar        </td><td class='td11' id='TBL-9-9-3' style='white-space:nowrap; text-align:center;'> 2022EE11727 </td><td class='td11' id='TBL-9-9-4' style='white-space:nowrap; text-align:center;'> ee1221-727@iitd.ac.in </td><td class='td11' id='TBL-9-9-5' style='white-space:nowrap; text-align:center;'>8340328685</td><td class='td11' id='TBL-9-9-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-9-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-10-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-10-2' style='white-space:nowrap; text-align:center;'>   Nuthi Sai Kushwanth     </td><td class='td11' id='TBL-9-10-3' style='white-space:nowrap; text-align:center;'> 2021EE10144 </td><td class='td11' id='TBL-9-10-4' style='white-space:nowrap; text-align:center;'> ee1210-144@iitd.ac.in </td><td class='td11' id='TBL-9-10-5' style='white-space:nowrap; text-align:center;'>9391222041</td><td class='td11' id='TBL-9-10-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-10-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-11-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-11-2' style='white-space:nowrap; text-align:center;'>     Abhinav Tiwari        </td><td class='td11' id='TBL-9-11-3' style='white-space:nowrap; text-align:center;'> 2022EE11665 </td><td class='td11' id='TBL-9-11-4' style='white-space:nowrap; text-align:center;'> ee1221-665@iitd.ac.in </td><td class='td11' id='TBL-9-11-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-9-11-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-11-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-12-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-12-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-12-2' style='white-space:nowrap; text-align:center;'>    Deepanjan Mandal      </td><td class='td11' id='TBL-9-12-3' style='white-space:nowrap; text-align:center;'> 2022EE31784 </td><td class='td11' id='TBL-9-12-4' style='white-space:nowrap; text-align:center;'> ee3221-784@iitd.ac.in </td><td class='td11' id='TBL-9-12-5' style='white-space:nowrap; text-align:center;'>9707468038</td><td class='td11' id='TBL-9-12-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-12-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-9-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-13-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-13-2' style='white-space:nowrap; text-align:center;'>   Pravakar Mohapatra     </td><td class='td11' id='TBL-9-13-3' style='white-space:nowrap; text-align:center;'> 2022EE31193 </td><td class='td11' id='TBL-9-13-4' style='white-space:nowrap; text-align:center;'> ee3221-193@iitd.ac.in </td><td class='td11' id='TBL-9-13-5' style='white-space:nowrap; text-align:center;'>8144742767</td><td class='td11' id='TBL-9-13-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-13-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-9-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-14-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-14-2' style='white-space:nowrap; text-align:center;'>      Saumya Singh         </td><td class='td11' id='TBL-9-14-3' style='white-space:nowrap; text-align:center;'> 2022EE31785 </td><td class='td11' id='TBL-9-14-4' style='white-space:nowrap; text-align:center;'> ee3221-785@iitd.ac.in </td><td class='td11' id='TBL-9-14-5' style='white-space:nowrap; text-align:center;'>8979075112</td><td class='td11' id='TBL-9-14-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-14-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-9-15-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-15-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-15-2' style='white-space:nowrap; text-align:center;'>  Repudi Niranjan Tagore   </td><td class='td11' id='TBL-9-15-3' style='white-space:nowrap; text-align:center;'> 2021EE10164 </td><td class='td11' id='TBL-9-15-4' style='white-space:nowrap; text-align:center;'> ee1210-164@iitd.ac.in </td><td class='td11' id='TBL-9-15-5' style='white-space:nowrap; text-align:center;'>9652530021</td><td class='td11' id='TBL-9-15-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-15-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-9-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-16-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-16-2' style='white-space:nowrap; text-align:center;'>      Rachit Sharma         </td><td class='td11' id='TBL-9-16-3' style='white-space:nowrap; text-align:center;'> 2022EE31744 </td><td class='td11' id='TBL-9-16-4' style='white-space:nowrap; text-align:center;'> ee3221-744@iitd.ac.in </td><td class='td11' id='TBL-9-16-5' style='white-space:nowrap; text-align:center;'>9870347373</td><td class='td11' id='TBL-9-16-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-16-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-9-17-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-17-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-17-2' style='white-space:nowrap; text-align:center;'>     Bharat Agarwal        </td><td class='td11' id='TBL-9-17-3' style='white-space:nowrap; text-align:center;'> 2022EE11790 </td><td class='td11' id='TBL-9-17-4' style='white-space:nowrap; text-align:center;'> ee1221-790@iitd.ac.in </td><td class='td11' id='TBL-9-17-5' style='white-space:nowrap; text-align:center;'>9903727645</td><td class='td11' id='TBL-9-17-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td><td class='td11' id='TBL-9-17-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-9-18-' style='vertical-align:baseline;'><td class='td11' id='TBL-9-18-1' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-9-18-2' style='white-space:nowrap; text-align:center;'>      Abheek Gera          </td><td class='td11' id='TBL-9-18-3' style='white-space:nowrap; text-align:center;'> 2022EE11160 </td><td class='td11' id='TBL-9-18-4' style='white-space:nowrap; text-align:center;'> ee1221-160@iitd.ac.in </td><td class='td11' id='TBL-9-18-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-9-18-6' style='white-space:normal; text-align:left;'><!-- l. 282 --><p class='noindent'>     </p></td>
+</tr></table>
+                                                                                      
+                                                                                      
+   </figure>
+   </div>
+   <h4 class='subsectionHead' id='electronics'><span class='titlemark'>5.4   </span> <a id='x1-120005.4'></a>Electronics</h4>
+   <div class='table'>
+                                                                                      
+                                                                                      
+<!-- l. 287 --><p class='indent'>   </p><figure class='float' id='x1-12001r4'><span id='electronics-team'></span>
+                                                                                      
+                                                                                      
+
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Table 4: </span></span><span class='content'><span class='ecrm-1095'>Electronics Team</span>                                                             </span></figcaption><!-- tex4ht:label?: x1-12001r4  -->
+
+ <table class='tabular' id='TBL-12'><colgroup id='TBL-12-1g'><col id='TBL-12-1' /></colgroup><colgroup id='TBL-12-2g'><col id='TBL-12-2' /></colgroup><colgroup id='TBL-12-3g'><col id='TBL-12-3' /></colgroup><colgroup id='TBL-12-4g'><col id='TBL-12-4' /></colgroup><colgroup id='TBL-12-5g'><col id='TBL-12-5' /></colgroup><colgroup id='TBL-12-6g'><col id='TBL-12-6' /></colgroup><colgroup id='TBL-12-7g'><col id='TBL-12-7' /></colgroup><tr id='TBL-12-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-1-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'><span class='ecbx-1200'>Desig-nation</span> </p></td><td class='td11' id='TBL-12-1-2' style='white-space:nowrap; text-align:center;'>    <span class='ecbx-1200'>Name         </span></td><td class='td11' id='TBL-12-1-3' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>Entry No  </span></td><td class='td11' id='TBL-12-1-4' style='white-space:nowrap; text-align:center;'>      <span class='ecbx-1200'>Email         </span></td><td class='td11' id='TBL-12-1-5' style='white-space:nowrap; text-align:center;'>  <span class='ecbx-1200'>Phone   </span></td><td class='td11' id='TBL-12-1-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'><span class='ecbx-1200'>IF</span>    </p></td><td class='td11' id='TBL-12-1-7' style='white-space:nowrap; text-align:center;'><span class='ecbx-1200'>Justification for Low IF</span></td>
+</tr><tr id='TBL-12-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-2-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Coordi-nator </p></td><td class='td11' id='TBL-12-2-2' style='white-space:nowrap; text-align:center;'>   Ashesh Mishra     </td><td class='td11' id='TBL-12-2-3' style='white-space:nowrap; text-align:center;'>2022EE11155</td><td class='td11' id='TBL-12-2-4' style='white-space:nowrap; text-align:center;'>ee1221-155@iitd.ac.in</td><td class='td11' id='TBL-12-2-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-12-2-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-2-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-3-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-3-2' style='white-space:nowrap; text-align:center;'>     Kanika Jain       </td><td class='td11' id='TBL-12-3-3' style='white-space:nowrap; text-align:center;'>2022EE11168</td><td class='td11' id='TBL-12-3-4' style='white-space:nowrap; text-align:center;'>ee1221-168@iitd.ac.in</td><td class='td11' id='TBL-12-3-5' style='white-space:nowrap; text-align:center;'>7906171618</td><td class='td11' id='TBL-12-3-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-3-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-4-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-4-2' style='white-space:nowrap; text-align:center;'>      Lavanya          </td><td class='td11' id='TBL-12-4-3' style='white-space:nowrap; text-align:center;'>2022EE11679</td><td class='td11' id='TBL-12-4-4' style='white-space:nowrap; text-align:center;'>ee1221-679@iitd.ac.in</td><td class='td11' id='TBL-12-4-5' style='white-space:nowrap; text-align:center;'>8851733548</td><td class='td11' id='TBL-12-4-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-4-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-5-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-5-2' style='white-space:nowrap; text-align:center;'>   Bokam Praneeth    </td><td class='td11' id='TBL-12-5-3' style='white-space:nowrap; text-align:center;'>2022EE11171</td><td class='td11' id='TBL-12-5-4' style='white-space:nowrap; text-align:center;'>ee1221-171@iitd.ac.in</td><td class='td11' id='TBL-12-5-5' style='white-space:nowrap; text-align:center;'>7207838333</td><td class='td11' id='TBL-12-5-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-5-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-6-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-6-2' style='white-space:nowrap; text-align:center;'>    Arpit Prasad       </td><td class='td11' id='TBL-12-6-3' style='white-space:nowrap; text-align:center;'>2022EE11837</td><td class='td11' id='TBL-12-6-4' style='white-space:nowrap; text-align:center;'>ee1221-837@iitd.ac.in</td><td class='td11' id='TBL-12-6-5' style='white-space:nowrap; text-align:center;'>9591641739</td><td class='td11' id='TBL-12-6-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-6-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-7-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-7-2' style='white-space:nowrap; text-align:center;'>    Advik Gupta       </td><td class='td11' id='TBL-12-7-3' style='white-space:nowrap; text-align:center;'>2022EE31740</td><td class='td11' id='TBL-12-7-4' style='white-space:nowrap; text-align:center;'>ee3221-740@iitd.ac.in</td><td class='td11' id='TBL-12-7-5' style='white-space:nowrap; text-align:center;'>9136535802</td><td class='td11' id='TBL-12-7-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-7-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-8-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-8-2' style='white-space:nowrap; text-align:center;'>   Adheyan Gupta     </td><td class='td11' id='TBL-12-8-3' style='white-space:nowrap; text-align:center;'>2022EE11659</td><td class='td11' id='TBL-12-8-4' style='white-space:nowrap; text-align:center;'>ee1221-659@iitd.ac.in</td><td class='td11' id='TBL-12-8-5' style='white-space:nowrap; text-align:center;'>9811816442</td><td class='td11' id='TBL-12-8-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-8-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-9-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-9-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-9-2' style='white-space:nowrap; text-align:center;'> Anushka Chaturvedi  </td><td class='td11' id='TBL-12-9-3' style='white-space:nowrap; text-align:center;'>2022EE31763</td><td class='td11' id='TBL-12-9-4' style='white-space:nowrap; text-align:center;'>ee3221-763@iitd.ac.in</td><td class='td11' id='TBL-12-9-5' style='white-space:nowrap; text-align:center;'>7017486074</td><td class='td11' id='TBL-12-9-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-9-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-10-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-10-2' style='white-space:nowrap; text-align:center;'>   Nakshat Pandey    </td><td class='td11' id='TBL-12-10-3' style='white-space:nowrap; text-align:center;'>2022EE11436</td><td class='td11' id='TBL-12-10-4' style='white-space:nowrap; text-align:center;'>ee1221-436@iitd.ac.in</td><td class='td11' id='TBL-12-10-5' style='white-space:nowrap; text-align:center;'>9830083566</td><td class='td11' id='TBL-12-10-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-10-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-12-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-11-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-11-2' style='white-space:nowrap; text-align:center;'>Krishna Kumar Gupta</td><td class='td11' id='TBL-12-11-3' style='white-space:nowrap; text-align:center;'>2022EE11698</td><td class='td11' id='TBL-12-11-4' style='white-space:nowrap; text-align:center;'>ee1221-698@iitd.ac.in</td><td class='td11' id='TBL-12-11-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-12-11-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-11-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-12-12-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-12-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-12-2' style='white-space:nowrap; text-align:center;'>    Tannu Shree       </td><td class='td11' id='TBL-12-12-3' style='white-space:nowrap; text-align:center;'>2022EE11683</td><td class='td11' id='TBL-12-12-4' style='white-space:nowrap; text-align:center;'>ee1221-683@iitd.ac.in</td><td class='td11' id='TBL-12-12-5' style='white-space:nowrap; text-align:center;'>6367217321</td><td class='td11' id='TBL-12-12-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-12-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-12-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-13-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-13-2' style='white-space:nowrap; text-align:center;'>   Devansh Pandey    </td><td class='td11' id='TBL-12-13-3' style='white-space:nowrap; text-align:center;'>2022EE31538</td><td class='td11' id='TBL-12-13-4' style='white-space:nowrap; text-align:center;'>ee3221-538@iitd.ac.in</td><td class='td11' id='TBL-12-13-5' style='white-space:nowrap; text-align:center;'>9009777033</td><td class='td11' id='TBL-12-13-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-13-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-12-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-14-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-14-2' style='white-space:nowrap; text-align:center;'>     Asmi Jayee        </td><td class='td11' id='TBL-12-14-3' style='white-space:nowrap; text-align:center;'>2022EE31756</td><td class='td11' id='TBL-12-14-4' style='white-space:nowrap; text-align:center;'>ee3221-756@iitd.ac.in</td><td class='td11' id='TBL-12-14-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-12-14-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-14-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-12-15-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-15-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-15-2' style='white-space:nowrap; text-align:center;'>     Priya Jain        </td><td class='td11' id='TBL-12-15-3' style='white-space:nowrap; text-align:center;'>2022EE31757</td><td class='td11' id='TBL-12-15-4' style='white-space:nowrap; text-align:center;'>ee3221-757@iitd.ac.in</td><td class='td11' id='TBL-12-15-5' style='white-space:nowrap; text-align:center;'>9717040263</td><td class='td11' id='TBL-12-15-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-15-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-12-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-12-16-1' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-12-16-2' style='white-space:nowrap; text-align:center;'>Priyansh Dutt Sharma</td><td class='td11' id='TBL-12-16-3' style='white-space:nowrap; text-align:center;'>2022EE31739</td><td class='td11' id='TBL-12-16-4' style='white-space:nowrap; text-align:center;'>ee3221-739@iitd.ac.in</td><td class='td11' id='TBL-12-16-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-12-16-6' style='white-space:normal; text-align:left;'><!-- l. 313 --><p class='noindent'>     </p></td><td class='td11' id='TBL-12-16-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr></table>
+                                                                                      
+                                                                                      
+   </figure>
+   </div>
+   <h4 class='subsectionHead' id='mechanical'><span class='titlemark'>5.5   </span> <a id='x1-130005.5'></a>Mechanical</h4>
+   <div class='table'>
+                                                                                      
+                                                                                      
+<!-- l. 318 --><p class='indent'>   </p><figure class='float' id='x1-13001r5'><span id='mechanical-team'></span>
+                                                                                      
+                                                                                      
+
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Table 5: </span></span><span class='content'><span class='ecrm-1095'>Mechanical Team</span>                                                             </span></figcaption><!-- tex4ht:label?: x1-13001r5  -->
+
+ <table class='tabular' id='TBL-15'><colgroup id='TBL-15-1g'><col id='TBL-15-1' /></colgroup><colgroup id='TBL-15-2g'><col id='TBL-15-2' /></colgroup><colgroup id='TBL-15-3g'><col id='TBL-15-3' /></colgroup><colgroup id='TBL-15-4g'><col id='TBL-15-4' /></colgroup><colgroup id='TBL-15-5g'><col id='TBL-15-5' /></colgroup><colgroup id='TBL-15-6g'><col id='TBL-15-6' /></colgroup><colgroup id='TBL-15-7g'><col id='TBL-15-7' /></colgroup><tr id='TBL-15-1-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-1-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'><span class='ecbx-1200'>Desig-nation</span> </p></td><td class='td11' id='TBL-15-1-2' style='white-space:nowrap; text-align:center;'>    <span class='ecbx-1200'>Name         </span></td><td class='td11' id='TBL-15-1-3' style='white-space:nowrap; text-align:center;'> <span class='ecbx-1200'>Entry No  </span></td><td class='td11' id='TBL-15-1-4' style='white-space:nowrap; text-align:center;'>       <span class='ecbx-1200'>Email         </span></td><td class='td11' id='TBL-15-1-5' style='white-space:nowrap; text-align:center;'>  <span class='ecbx-1200'>Phone   </span></td><td class='td11' id='TBL-15-1-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'><span class='ecbx-1200'>IF</span>    </p></td><td class='td11' id='TBL-15-1-7' style='white-space:nowrap; text-align:center;'><span class='ecbx-1200'>Justification for Low IF</span></td>
+</tr><tr id='TBL-15-2-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-2-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Coordi-nator </p></td><td class='td11' id='TBL-15-2-2' style='white-space:nowrap; text-align:center;'>   Sneha Dhaka      </td><td class='td11' id='TBL-15-2-3' style='white-space:nowrap; text-align:center;'> 2022EE11176 </td><td class='td11' id='TBL-15-2-4' style='white-space:nowrap; text-align:center;'> ee1221-176@iitd.ac.in </td><td class='td11' id='TBL-15-2-5' style='white-space:nowrap; text-align:center;'>8690266493</td><td class='td11' id='TBL-15-2-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-2-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-3-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-3-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-3-2' style='white-space:nowrap; text-align:center;'>  Chandan Solanki   </td><td class='td11' id='TBL-15-3-3' style='white-space:nowrap; text-align:center;'> 2022EE11726 </td><td class='td11' id='TBL-15-3-4' style='white-space:nowrap; text-align:center;'> ee1221-726@iitd.ac.in </td><td class='td11' id='TBL-15-3-5' style='white-space:nowrap; text-align:center;'>8302855902</td><td class='td11' id='TBL-15-3-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-3-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-4-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-4-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-4-2' style='white-space:nowrap; text-align:center;'>   Pulkit Sheoran     </td><td class='td11' id='TBL-15-4-3' style='white-space:nowrap; text-align:center;'> 2022EE11714 </td><td class='td11' id='TBL-15-4-4' style='white-space:nowrap; text-align:center;'> ee1221-714@iitd.ac.in </td><td class='td11' id='TBL-15-4-5' style='white-space:nowrap; text-align:center;'>7878722292</td><td class='td11' id='TBL-15-4-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-4-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-5-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-5-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-5-2' style='white-space:nowrap; text-align:center;'>      Akshat          </td><td class='td11' id='TBL-15-5-3' style='white-space:nowrap; text-align:center;'> 2022EE31768 </td><td class='td11' id='TBL-15-5-4' style='white-space:nowrap; text-align:center;'> ee3221-768@iitd.ac.in </td><td class='td11' id='TBL-15-5-5' style='white-space:nowrap; text-align:center;'>9508327138</td><td class='td11' id='TBL-15-5-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-5-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-6-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-6-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-6-2' style='white-space:nowrap; text-align:center;'>   Anushka Patel     </td><td class='td11' id='TBL-15-6-3' style='white-space:nowrap; text-align:center;'> 2022EE31776 </td><td class='td11' id='TBL-15-6-4' style='white-space:nowrap; text-align:center;'> ee3221-776@iitd.ac.in </td><td class='td11' id='TBL-15-6-5' style='white-space:nowrap; text-align:center;'>6263421591</td><td class='td11' id='TBL-15-6-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-6-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-7-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-7-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-7-2' style='white-space:nowrap; text-align:center;'>     Suryansh         </td><td class='td11' id='TBL-15-7-3' style='white-space:nowrap; text-align:center;'> 2022EE31431 </td><td class='td11' id='TBL-15-7-4' style='white-space:nowrap; text-align:center;'> ee3221-431@iitd.ac.in </td><td class='td11' id='TBL-15-7-5' style='white-space:nowrap; text-align:center;'>9450925904</td><td class='td11' id='TBL-15-7-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-7-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-8-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-8-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-8-2' style='white-space:nowrap; text-align:center;'> Dhruv Jhunjhunwala </td><td class='td11' id='TBL-15-8-3' style='white-space:nowrap; text-align:center;'> 2022EE32068 </td><td class='td11' id='TBL-15-8-4' style='white-space:nowrap; text-align:center;'> ee3222-068@iitd.ac.in </td><td class='td11' id='TBL-15-8-5' style='white-space:nowrap; text-align:center;'>8240827161</td><td class='td11' id='TBL-15-8-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-8-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-9-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-9-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-9-2' style='white-space:nowrap; text-align:center;'>      Arushi          </td><td class='td11' id='TBL-15-9-3' style='white-space:nowrap; text-align:center;'>2022MT11950</td><td class='td11' id='TBL-15-9-4' style='white-space:nowrap; text-align:center;'>mt1221-950@iitd.ac.in</td><td class='td11' id='TBL-15-9-5' style='white-space:nowrap; text-align:center;'>8890866924</td><td class='td11' id='TBL-15-9-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-9-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-10-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-10-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-10-2' style='white-space:nowrap; text-align:center;'>       Nikita           </td><td class='td11' id='TBL-15-10-3' style='white-space:nowrap; text-align:center;'>2022MT11951</td><td class='td11' id='TBL-15-10-4' style='white-space:nowrap; text-align:center;'>mt1221-951@iitd.ac.in</td><td class='td11' id='TBL-15-10-5' style='white-space:nowrap; text-align:center;'>8630320495</td><td class='td11' id='TBL-15-10-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-10-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-11-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-11-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-11-2' style='white-space:nowrap; text-align:center;'>   Janmesh Jarwal    </td><td class='td11' id='TBL-15-11-3' style='white-space:nowrap; text-align:center;'> 2022EE11186 </td><td class='td11' id='TBL-15-11-4' style='white-space:nowrap; text-align:center;'> ee1221-186@iitd.ac.in </td><td class='td11' id='TBL-15-11-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-15-11-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-11-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-12-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-12-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-12-2' style='white-space:nowrap; text-align:center;'>   Rajat Goswami    </td><td class='td11' id='TBL-15-12-3' style='white-space:nowrap; text-align:center;'> 2022EE31772 </td><td class='td11' id='TBL-15-12-4' style='white-space:nowrap; text-align:center;'> ee3221-772@iitd.ac.in </td><td class='td11' id='TBL-15-12-5' style='white-space:nowrap; text-align:center;'>6306105604</td><td class='td11' id='TBL-15-12-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-12-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-13-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-13-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-13-2' style='white-space:nowrap; text-align:center;'>       Kamal          </td><td class='td11' id='TBL-15-13-3' style='white-space:nowrap; text-align:center;'> 2022EE11703 </td><td class='td11' id='TBL-15-13-4' style='white-space:nowrap; text-align:center;'> ee1221-703@iitd.ac.in </td><td class='td11' id='TBL-15-13-5' style='white-space:nowrap; text-align:center;'>8168035602</td><td class='td11' id='TBL-15-13-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-13-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-14-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-14-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-14-2' style='white-space:nowrap; text-align:center;'>  Anubhav Karadia   </td><td class='td11' id='TBL-15-14-3' style='white-space:nowrap; text-align:center;'>2022MT11292</td><td class='td11' id='TBL-15-14-4' style='white-space:nowrap; text-align:center;'>mt1221-292@iitd.ac.in</td><td class='td11' id='TBL-15-14-5' style='white-space:nowrap; text-align:center;'>8854059885</td><td class='td11' id='TBL-15-14-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-14-7' style='white-space:nowrap; text-align:center;'>                       </td>
+</tr><tr id='TBL-15-15-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-15-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-15-2' style='white-space:nowrap; text-align:center;'> Gajendra Dhanoliya </td><td class='td11' id='TBL-15-15-3' style='white-space:nowrap; text-align:center;'> 2022EE11723 </td><td class='td11' id='TBL-15-15-4' style='white-space:nowrap; text-align:center;'> ee1221-723@iitd.ac.in </td><td class='td11' id='TBL-15-15-5' style='white-space:nowrap; text-align:center;'>9109485566</td><td class='td11' id='TBL-15-15-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-15-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-16-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-16-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-16-2' style='white-space:nowrap; text-align:center;'>Lokendra Singh Gohil</td><td class='td11' id='TBL-15-16-3' style='white-space:nowrap; text-align:center;'> 2022EE11164 </td><td class='td11' id='TBL-15-16-4' style='white-space:nowrap; text-align:center;'> ee1221-164@iitd.ac.in </td><td class='td11' id='TBL-15-16-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-15-16-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-16-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-17-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-17-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-17-2' style='white-space:nowrap; text-align:center;'> Aditya Kumar Singh </td><td class='td11' id='TBL-15-17-3' style='white-space:nowrap; text-align:center;'> 2022EE31783 </td><td class='td11' id='TBL-15-17-4' style='white-space:nowrap; text-align:center;'> ee3221-783@iitd.ac.in </td><td class='td11' id='TBL-15-17-5' style='white-space:nowrap; text-align:center;'>7617738650</td><td class='td11' id='TBL-15-17-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-17-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-18-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-18-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-18-2' style='white-space:nowrap; text-align:center;'>   Ayushya Joshi     </td><td class='td11' id='TBL-15-18-3' style='white-space:nowrap; text-align:center;'> 2022EE11674 </td><td class='td11' id='TBL-15-18-4' style='white-space:nowrap; text-align:center;'> ee1221-674@iitd.ac.in </td><td class='td11' id='TBL-15-18-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-15-18-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-18-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-19-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-19-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-19-2' style='white-space:nowrap; text-align:center;'>   Arnav Singhal     </td><td class='td11' id='TBL-15-19-3' style='white-space:nowrap; text-align:center;'> 2022EE11270 </td><td class='td11' id='TBL-15-19-4' style='white-space:nowrap; text-align:center;'> ee1221-270@iitd.ac.in </td><td class='td11' id='TBL-15-19-5' style='white-space:nowrap; text-align:center;'>   nan     </td><td class='td11' id='TBL-15-19-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-19-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr><tr id='TBL-15-20-' style='vertical-align:baseline;'><td class='td11' id='TBL-15-20-1' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>Member </p></td><td class='td11' id='TBL-15-20-2' style='white-space:nowrap; text-align:center;'> Priyanshu Mangawa </td><td class='td11' id='TBL-15-20-3' style='white-space:nowrap; text-align:center;'> 2022EE11701 </td><td class='td11' id='TBL-15-20-4' style='white-space:nowrap; text-align:center;'> ee1221-701@iitd.ac.in </td><td class='td11' id='TBL-15-20-5' style='white-space:nowrap; text-align:center;'>7296966363</td><td class='td11' id='TBL-15-20-6' style='white-space:normal; text-align:left;'><!-- l. 348 --><p class='noindent'>     </p></td><td class='td11' id='TBL-15-20-7' style='white-space:nowrap; text-align:center;'>                       </td>
+
+</tr></table>
+                                                                                      
+                                                                                      
+   </figure>
+   </div>
+   <h3 class='sectionHead' id='mind-maps'><span class='titlemark'>6   </span> <a id='x1-140006'></a>Mind Maps</h3>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 357 --><p class='noindent' id='mind-map-for-function-generator-requirements'><img alt='PIC' height='453' src='mindmap.jpg' width='452' /> <a id='x1-14001r1'></a></p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 1: </span></span><span class='content'><span class='ecrm-1095'>Mind Map for Function Generator Requirements</span>                               </span></figcaption><!-- tex4ht:label?: x1-14001r1  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 362 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='project-management-details'><span class='titlemark'>7   </span> <a id='x1-150007'></a>Project Management Details</h3>
+<!-- l. 365 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='network-chart'><span class='titlemark'>7.1   </span> <a id='x1-160007.1'></a>Network Chart</h4>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 369 --><p class='noindent' id='network-chart-for-project-timeline'><img alt='PIC' height='453' src='Network.png' width='452' /> <a id='x1-16001r2'></a></p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 2: </span></span><span class='content'><span class='ecrm-1095'>Network Chart for Project Timeline</span>                                           </span></figcaption><!-- tex4ht:label?: x1-16001r2  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 375 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h4 class='subsectionHead' id='wbs-chart'><span class='titlemark'>7.2   </span> <a id='x1-170007.2'></a>WBS Chart</h4>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 380 --><p class='noindent' id='work-breakdown-structure-wbs-chart-for-project-costs'><img alt='PIC' height='453' src='WBS_chart.png' width='452' /> <a id='x1-17001r3'></a></p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 3: </span></span><span class='content'><span class='ecrm-1095'>Work Breakdown Structure (WBS) Chart for Project Costs</span>                     </span></figcaption><!-- tex4ht:label?: x1-17001r3  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 386 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h4 class='subsectionHead' id='gantt-chart'><span class='titlemark'>7.3   </span> <a id='x1-180007.3'></a>Gantt Chart</h4>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 391 --><p class='noindent' id='gantt-chart-for-project-timeline'><img alt='PIC' height='453' src='Gannt.png' width='452' /> <a id='x1-18001r4'></a></p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 4: </span></span><span class='content'><span class='ecrm-1095'>Gantt Chart for Project Timeline</span>                                             </span></figcaption><!-- tex4ht:label?: x1-18001r4  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 397 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h4 class='subsectionHead' id='task-usage-chart'><span class='titlemark'>7.4   </span> <a id='x1-190007.4'></a>Task Usage Chart</h4>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 402 --><p class='noindent' id='task-usage-chart-for-resource-allocation'><img alt='PIC' height='453' src='Task_usage.png' width='452' /> <a id='x1-19001r5'></a></p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 5: </span></span><span class='content'><span class='ecrm-1095'>Task Usage Chart for Resource Allocation</span>                                     </span></figcaption><!-- tex4ht:label?: x1-19001r5  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 409 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='abstract'><span class='titlemark'>8   </span> <a id='x1-200008'></a>Abstract</h3>
+<!-- l. 411 --><p class='noindent'>This project introduces a function generator designed from scratch to produce precise periodic
+waveforms, including sinusoidal, square, and triangular signals, with adjustable frequency and
+amplitude. The device is designed for use in academic laboratories, research environments, and
+small-scale industrial applications, offering a cost-effective and reliable alternative to
+commercial solutions.
+</p><!-- l. 413 --><p class='indent'>   Developed by a team of 60 undergraduate students, this project combines advanced
+electronic design principles, signal processing expertise, and practical functionality. The
+function generator integrates oscillators, waveform shaping circuits, and signal conditioning
+stages, along with a microcontroller-based interface for real-time control. Emphasis is placed on
+achieving high frequency stability, low total harmonic distortion, and user-friendly
+operation.
+</p><!-- l. 415 --><p class='indent'>   The device aims to bridge the gap between affordability and functionality, addressing the
+needs of users in resource-constrained settings. This paper details the design methodology,
+technological innovations, and the potential impact of this versatile function generator on
+modern testing and prototyping environments.
+</p><!-- l. 419 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='motivation'><span class='titlemark'>9   </span> <a id='x1-210009'></a>Motivation</h3>
+<!-- l. 421 --><p class='noindent'><span class='ecbx-1440'>Development of a Cost-Effective and Versatile Function Generator</span>
+</p><!-- l. 423 --><p class='indent'>   The motivation for development of a function generator from scratch is driven by the need
+for a cost-effective, precise, and versatile signal generation solution tailored for academic,
+research, and small-scale industrial applications. Existing commercial function generators, while
+highly capable, often come with significant financial and operational constraints, limiting
+accessibility for resource-constrained environments.
+</p><!-- l. 425 --><p class='indent'>   Our team identified this gap through a comprehensive evaluation of current tools and their
+limitations. This project offers an opportunity to design a device that not only fulfills the
+essential requirements of waveform generation—producing sinusoidal, square, and triangular
+signals—but also ensures high frequency stability, low harmonic distortion, and user-friendly
+operation.
+</p><!-- l. 427 --><p class='indent'>   The project embodies our commitment to advancing practical engineering skills while
+addressing real-world challenges. By integrating principles of circuit design, signal processing,
+and digital control, the function generator aims to bridge the affordability gap without
+compromising on performance. This initiative is not merely an academic exercise but a step
+toward democratizing access to essential testing equipment, thereby empowering the broader
+engineering and scientific community.
+</p>
+   <figure class='figure'> 
+
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                      
+<!-- l. 1 --><p class='noindent' id='factors-driving-the-function-generator-development'><img alt='AAcRffEaeosCdsrsoeedesmaantirbt-cciihlaitly
+ApEpFffNleeeiacecttdauistrvieeosns
+  Function
+ Generator  ' src='main1x.svg' />
+<a id='x1-21001r6'></a>
+</p>
+<figcaption class='caption'><span class='id'><span class='ecbx-1095'>Figure 6: </span></span><span class='content'><span class='ecrm-1095'>Factors Driving the Function Generator Development</span>
+</span></figcaption><!-- tex4ht:label?: x1-21001r6  -->
+                                                                                      
+                                                                                      
+   </figure>
+<!-- l. 438 --><p class='indent'>
+                                                                                      
+                                                                                      
+</p>
+   <h3 class='sectionHead' id='requirements'><span class='titlemark'>10   </span> <a id='x1-2200010'></a>Requirements</h3>
+<!-- l. 441 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='input-requirements'><span class='titlemark'>10.1   </span> <a id='x1-2300010.1'></a>Input Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 443 --><p class='noindent'><span class='ecbx-1200'>Waveform Control:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>System  must  accept  digital  inputs  for  waveform  selection  (Sine,  Square,
+           Triangle, Ramp, and Pulse waves)</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 447 --><p class='noindent'><span class='ecbx-1200'>Frequency Range:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>User input for frequency selection from 1Hz to 10MHz through rotary encoder
+           interface</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 451 --><p class='noindent'><span class='ecbx-1200'>Amplitude Control:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Variable amplitude control from 0V to 5V peak-to-peak through user interface</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 455 --><p class='noindent'><span class='ecbx-1200'>Phase Control:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>0-360 degrees phase adjustment capability when needed</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 459 --><p class='noindent'><span class='ecbx-1200'>Power Input:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Since, the client hasn’t specified the power requirements. We assume the power
+           supply  must  be  standard  power  supply,  which  can  be  usually  available  at
+           laboratory spaces</li></ul>
+                                                                                      
+                                                                                      
+      </li>
+      <li class='itemize'>
+      <!-- l. 463 --><p class='noindent'><span class='ecbx-1200'>User Interface:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Rotary encoder with push-button functionality for parameter selection and
+           adjustment, and buttons for user selection</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 467 --><p class='noindent'><span class='ecbx-1200'>Digital Control:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>SPI interface between ESP32 and AD9833 for waveform generation</li></ul>
+      </li></ul>
+<!-- l. 473 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='output-requirements'><span class='titlemark'>10.2   </span> <a id='x1-2400010.2'></a>Output Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 475 --><p class='noindent'><span class='ecbx-1200'>Waveform Quality:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Clean output waveforms with minimal distortion (THD &lt; 1% for sine wave)</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 479 --><p class='noindent'><span class='ecbx-1200'>Frequency Accuracy:</span>  </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Generated frequency must be as close to the desired value as possible</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 483 --><p class='noindent'><span class='ecbx-1200'>Amplitude Stability:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Output amplitude must remain stable as close as possible to the desired value</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 487 --><p class='noindent'><span class='ecbx-1200'>Display Output:</span> </p>
+                                                                                      
+                                                                                      
+           <ul class='itemize2'>
+           <li class='itemize'>Real-time  display  of  frequency,  waveform  type,  and  amplitude  settings  on
+           OLED/LCD</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 491 --><p class='noindent'><span class='ecbx-1200'>Signal Output:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Industry-standard BNC connector with 50<img alt='Ω  ' class='math' src='main2x.svg' /> output impedance</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 495 --><p class='noindent'><span class='ecbx-1200'>Noise Level:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Output signal-to-noise ratio to be kept as high as possible</li></ul>
+      </li></ul>
+<!-- l. 501 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='power-requirements'><span class='titlemark'>10.3   </span> <a id='x1-2500010.3'></a>Power Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 503 --><p class='noindent'><span class='ecbx-1200'>Input Power Source:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>USB Type-C power delivery
+           </li>
+           <li class='itemize'>Standard mobile charger (5V)
+           </li>
+           <li class='itemize'>Power rating: 15W-20W capability recommended</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 509 --><p class='noindent'><span class='ecbx-1200'>Protection:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Over-current protection for &gt;2.5A
+           </li>
+           <li class='itemize'>Reverse polarity protection
+                                                                                      
+                                                                                      
+           </li>
+           <li class='itemize'>Short circuit protection
+           </li>
+           <li class='itemize'>Thermal protection</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 516 --><p class='noindent'><span class='ecbx-1200'>Power Supply Requirements:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>USB Type-C charger: 5V/3A or better
+           </li>
+           <li class='itemize'>Good quality power supply recommended</li></ul>
+      </li></ul>
+<!-- l. 523 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='environmental-requirements'><span class='titlemark'>10.4   </span> <a id='x1-2600010.4'></a>Environmental Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 525 --><p class='noindent'><span class='ecbx-1200'>Operating Conditions:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Temperature: +0<span class='tcrm-1200'>°</span>C to +40<span class='tcrm-1200'>°</span>C.
+           </li>
+           <li class='itemize'>Humidity: Up to 80% relative humidity (non-condensing).</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 530 --><p class='noindent'><span class='ecbx-1200'>Storage Conditions:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Temperature: -10<span class='tcrm-1200'>°</span>C to +70<span class='tcrm-1200'>°</span>C.
+           </li>
+           <li class='itemize'>Humidity: Up to 70% relative humidity.</li></ul>
+      </li></ul>
+                                                                                      
+                                                                                      
+<!-- l. 537 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='site-usage-site-requirements'><span class='titlemark'>10.5   </span> <a id='x1-2700010.5'></a>Site (Usage Site) Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 539 --><p class='noindent'><span class='ecbx-1200'>Location:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Designed for indoor use in laboratory or workshop environments.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 543 --><p class='noindent'><span class='ecbx-1200'>Space Requirements:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Compact design to fit on standard lab benches (dimensions: 20cm x 15cm x
+           5cm maximum).</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 547 --><p class='noindent'><span class='ecbx-1200'>Power Supply:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Standard 5V power source availability.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 551 --><p class='noindent'><span class='ecbx-1200'>Ventilation:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Adequate airflow around the device to prevent overheating.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 555 --><p class='noindent'><span class='ecbx-1200'>Lighting:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Sufficient lighting for display readability.</li></ul>
+      </li></ul>
+                                                                                      
+                                                                                      
+<!-- l. 561 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='structural-requirements'><span class='titlemark'>10.6   </span> <a id='x1-2800010.6'></a>Structural Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 563 --><p class='noindent'><span class='ecbx-1200'>Dimensions:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Maximum size of 200mm <span class='tcrm-1200'>× </span>150mm <span class='tcrm-1200'>× </span>100mm.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 567 --><p class='noindent'><span class='ecbx-1200'>Material:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'><span class='ecbx-1200'>Enclosure: </span>2mm aluminium sheets for durability and heat dissipation or some
+           enclosure which provides shielding.
+           </li>
+           <li class='itemize'><span class='ecbx-1200'>Front Panel: </span>2mm acrylic sheet for labeling and controls.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 572 --><p class='noindent'><span class='ecbx-1200'>Components:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Rotary encoders, rotary potentiometer, BNC connectors, push buttons, square
+           push button.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 576 --><p class='noindent'><span class='ecbx-1200'>Assembly:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Modular design for easy assembly and disassembly.
+           </li>
+           <li class='itemize'>Rubber stoppers for stability and vibration damping.
+           </li>
+           <li class='itemize'>Bolts and nuts for secure fastening.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 582 --><p class='noindent'><span class='ecbx-1200'>Slidable Top Lid:</span> </p>
+                                                                                      
+                                                                                      
+           <ul class='itemize2'>
+           <li class='itemize'>For easy access to internal components during maintenance.</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 586 --><p class='noindent'><span class='ecbx-1200'>Access Points:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Easy access to calibration and test points.</li></ul>
+      </li></ul>
+<!-- l. 592 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='time-requirements'><span class='titlemark'>10.7   </span> <a id='x1-2900010.7'></a>Time Requirements</h4>
+      <ul class='itemize1'>
+      <li class='itemize'>
+      <!-- l. 594 --><p class='noindent'><span class='ecbx-1200'>Design Time Requirement:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Total design time: 4 weeks
+           </li>
+           <li class='itemize'>Week 1: Ideation and concept development
+           </li>
+           <li class='itemize'>
+           <!-- l. 598 --><p class='noindent'>Weeks 2-4: Design implementation and testing </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Week 1: Simulations and parameter identification
+               </li>
+               <li class='itemize'>Week 2: Basic assembly and initial testing
+               </li>
+               <li class='itemize'>Week 3: Detailed testing and refinement</li></ul>
+           </li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 605 --><p class='noindent'><span class='ecbx-1200'>Time to Market Requirement:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Prototype completion: 4 weeks from project initiation
+                                                                                      
+                                                                                      
+           </li>
+           <li class='itemize'>First unit delivery: End of week 4
+           </li>
+           <li class='itemize'>Total time to market: 4 weeks</li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 611 --><p class='noindent'><span class='ecbx-1200'>Lifetime Requirement:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>Minimum operational lifetime: 2 years
+           </li>
+           <li class='itemize'>Maintenance interval: Every 6 months
+           </li>
+           <li class='itemize'>
+           <!-- l. 615 --><p class='noindent'>Component lifetime specifications: </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Electronic components: Minimum 2 years
+               </li>
+               <li class='itemize'>Mechanical components: 10,000 operations
+               </li>
+               <li class='itemize'>Display: 10,000 hours</li></ul>
+           </li>
+           <li class='itemize'>
+           <!-- l. 621 --><p class='noindent'>Performance degradation limits: </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Frequency drift: <span class='cmsy-10x-x-120'>±</span>1% per year
+               </li>
+               <li class='itemize'>Amplitude drift: <span class='cmsy-10x-x-120'>±</span>2% per year</li></ul>
+           </li></ul>
+      </li>
+      <li class='itemize'>
+      <!-- l. 627 --><p class='noindent'><span class='ecbx-1200'>End of Life Requirement:</span> </p>
+           <ul class='itemize2'>
+           <li class='itemize'>
+           <!-- l. 629 --><p class='noindent'>Disposal requirements: </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Electronic components: Separate for e-waste disposal
+                                                                                      
+                                                                                      
+               </li>
+               <li class='itemize'>Material segregation: Separate plastic and metal components</li></ul>
+           </li>
+           <li class='itemize'>
+           <!-- l. 634 --><p class='noindent'>Recycling specifications: </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Metal case: 100% recyclable
+               </li>
+               <li class='itemize'>PCB: E-waste recycling protocol
+               </li>
+               <li class='itemize'>Components: Material-type separation required</li></ul>
+           </li>
+           <li class='itemize'>
+           <!-- l. 640 --><p class='noindent'>Post-production support: </p>
+               <ul class='itemize3'>
+               <li class='itemize'>Spare parts availability: 1 year after end-of-life
+               </li>
+               <li class='itemize'>Support timeline: 3 years after end-of-life</li></ul>
+           </li></ul>
+      </li></ul>
+<!-- l. 908 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead' id='references'><span class='titlemark'>11   </span> <a id='x1-3000011'></a>References</h3>
+<!-- l. 909 --><p class='noindent'>Use Zotero or another reference manager to format citations in APA/IEEE/MLA
+style:
+</p>
+   <h3 class='likesectionHead' id='references1'><a id='x1-31000'></a>References</h3>
+<!-- l. 910 --><p class='noindent'>
+     </p><div class='thebibliography'>
+     <p class='bibitem'><span class='biblabel'>
+  [1]<span class='bibsp'>   </span></span><a id='Xexample'></a>Author Name, <span class='ecti-1200'>Title of Reference</span>, Publisher, Year.</p></div>
+<!-- l. 916 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead' id='appendices'><span class='titlemark'>A   </span> <a id='x1-32000A'></a>Appendices</h3>
+                                                                                      
+                                                                                      
+<!-- l. 917 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='appendix-a-circuit-diagrams'><span class='titlemark'>A.1   </span> <a id='x1-33000A.1'></a>Appendix A: Circuit Diagrams</h4>
+<!-- l. 918 --><p class='noindent'>Additional circuit diagrams.
+</p><!-- l. 920 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead' id='appendix-b-code'><span class='titlemark'>A.2   </span> <a id='x1-34000A.2'></a>Appendix B: Code</h4>
+<!-- l. 921 --><p class='noindent'>Include any code used for generating waveforms or analyzing data.
+</p>
+    
+</body> 
+</html>
